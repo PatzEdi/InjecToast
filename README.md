@@ -97,6 +97,9 @@ ____________________________________________________________________________
 - For the application to work, you can use apktool, or, if you are on an Android phone, you can use ApkToolM. More information above under the Tool Information section!
 - This project is under MIT license! Enjoy :)
 ____________________________________________________________________________
+## **DEALING WITH ERRORS:**
+- If you encounter an error in the compilation of an application, it means that the application is not supported. Overall, the injector works for around 90-95 percent of applications. Sometimes, a compilation tool such as apktool will give you register errors. This means that the application code conflicts with the injector's code. 
+- If you get other errors, script wise, such as parsing errors, file finding errors, etc, feel free to create an issue on the GitHub page.
 ## **Services used (Credits):**
 - [FinderZ](https://docs.python.org/3/library/os.html)
 - [XML](https://docs.python.org/3/library/xml.dom.minidom.html)
