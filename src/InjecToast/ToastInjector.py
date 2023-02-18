@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-#MADE WITH PASSION BY PATZEDI: CREATED: January 14, 2023 at 8:49 PM, FINISHED: January 20, 2023 at 5:11 PM.
+#MADE WITH PASSION BY PATZEDI
 
 #This project is currently WORKING, so give it a star on GitHub! :)
 
