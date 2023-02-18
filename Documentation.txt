@@ -1,0 +1,39 @@
+This is the documentation for InjecToast, created by PatzEdi.
+
+In order to use this tool, you should read all of this documentation. Overall, it is really easy to use.
+
+So, let's start.
+
+The first things you should have are:
+An android application decompilation tool such as: ApkTool, or, if you are on an Android device, ApkToolM might make things easier.
+
+Once you have those, you can start the process. The links to these tools are in the README.
+
+You are now ready to start decompiling. 
+
+Decompile your apk with apktool or ApktoolM. This will give you a folder containing all of the application's contents. Copy the directory of the decompiled app.
+
+At this point, go into your terminal emulator. If you are on an Android device, you can use Termux, also linked in the README.
+
+Make sure you have installed InjecToast via pip, instructions are on README. 
+
+Once InjecToast is installed, run the command: InjecToast
+
+This command you will run in the terminal, and once you run it will give you the help or arguments InjecToast accepts. 
+
+Once you are ready to proceed, you can execute with:
+
+InjecToast -t "Your toast message" -d /Path/To/DecompiledApp/
+
+When you execute it, please, MAKE SURE you have your toast message in quotation marks, otherwise, an error will occur.
+
+If you have done everything correctly, a log will start. It will show you what is happening, all in real time. Sometimes, the process can take longer than usual.
+
+
+Now, lets talk about dealing with errors.
+
+Sometimes, the toast Injector will lead to the application having problems. Unfortunately, not much can be done. It works for around 95 percent of applications tested. 
+
+If the toast injector leads to compilation errors, try it on another application.
+
+Thanks again!
