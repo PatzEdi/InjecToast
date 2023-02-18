@@ -16,7 +16,8 @@ A tool to inject toasts in Android applications, written in python, made with pa
 
 This script uses android application decompilation tools and the FinderZ library in order to function properly. 
 HUGE credits to the authors of the tools that are able to decompile android applications.
-**This tool is made for educational purposes only**
+
+**This tool is made for educational purposes only!**
 ## **A command line application that provides you with the ability to inject toasts in Android Applications, written in Python** 
 ____________________________________________________________________________
 ## **CHANGELOG: 1.1.0**
@@ -91,6 +92,7 @@ ____________________________________________________________________________
 - In case you did not know, smali is a code that is semi human-readable, and you get the code when decompiling android applications.
 ____________________________________________________________________________
 ## **User notice**
+- **This tool is made for educational purposes only!**
 - Please note that you need to know what you are going when it comes to decompiling, recompiling, and signing an android application.
 - When dealing with the toast message, -t, put your toast message in between two quotes!
 - You MUST have the FinderZ library installed in order for this to function. This provides the application with the needed functions to search for files and file content in the app directory.
