@@ -86,8 +86,8 @@ ____________________________________________________________________________
 - Not only that, but many more reasons, one of them being for fun and to showcase how one can easily edit other code by programming in a different language. 
 ____________________________________________________________________________
 ## **How?**
-- Using the FinderZ library created by myself, everything was much easier to do. Dealing with files was no longer painful. 20 to 30 lines of code, really only became one, thanks to the FinderZ library. 
-- Concerning the code, the summary of what it does is that it basically searches the files for the method, gets the smali contents from a separate .txt file, and then writes those contents to the line number after the ".locals" of the method.
+- Using the FinderZ library created by myself, everything was much easier to do. Dealing with files was no longer painful. 20 to 30 lines of code, really only became one, thanks to the FinderZ library.
+- Concerning the code, the summary of what it does is that it basically searches the files for the method, gets the smali contents, and then writes those contents to the line number after the ".locals" of the method.
 - In case you did not know, smali is a code that is semi human-readable, and you get the code when decompiling android applications.
 ____________________________________________________________________________
 ## **User notice**
