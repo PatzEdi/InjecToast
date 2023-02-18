@@ -16,7 +16,7 @@ A tool to inject toasts in Android applications, written in python, made with pa
 
 This script uses android application decompilation tools and the FinderZ library in order to function properly. 
 HUGE credits to the authors of the tools that are able to decompile android applications.
-
+**This tool is made for educational purposes only**
 ## **A command line application that provides you with the ability to inject toasts in Android Applications, written in Python** 
 ____________________________________________________________________________
 ## **CHANGELOG: 1.1.0**
