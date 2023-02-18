@@ -20,7 +20,7 @@ HUGE credits to the authors of the tools that are able to decompile android appl
 ## **A command line application that provides you with the ability to inject toasts in Android Applications, written in Python** 
 ____________________________________________________________________________
 ## **CHANGELOG: 1.1.0**
-- Release Version 1.0.0
+- Release Version 1.1.0
 
 ## **Tool Information (IMPORTANT)**
 - Before you proceed, make sure to install my FinderZ library at: [FinderZ](https://pypi.org/project/FinderZ/) This is used in order to manage files properly.
