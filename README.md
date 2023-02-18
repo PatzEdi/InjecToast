@@ -20,8 +20,9 @@ HUGE credits to the authors of the tools that are able to decompile android appl
 **This tool is made for educational purposes only!**
 ## **A command line application that provides you with the ability to inject toasts in Android Applications, written in Python** 
 ____________________________________________________________________________
-## **CHANGELOG: 1.1.1**
-- Release Version 1.1.1
+## **CHANGELOG: 1.1.2**
+- Release Version 1.1.2
+- Fixes in README
 
 ## **Tool Information (IMPORTANT)**
 - Before you proceed, make sure to install my FinderZ library at: [FinderZ](https://pypi.org/project/FinderZ/) This is used in order to manage files properly.
@@ -103,7 +104,7 @@ ____________________________________________________________________________
 - If you encounter an error in the compilation of an application, it means that the application is not supported. Overall, the injector works for around 90-95 percent of applications. Sometimes, a compilation tool such as apktool will give you register errors. This means that the application code conflicts with the injector's code. 
 - If you get other errors, script wise, such as parsing errors, file finding errors, etc, feel free to create an issue on the GitHub page.
 ## **Services used (Credits):**
-- [FinderZ](https://docs.python.org/3/library/os.html)
+- [FinderZ](https://github.com/PatzEdi/FinderZ/)
 - [XML](https://docs.python.org/3/library/xml.dom.minidom.html)
 - Services used to decompile android apps:
 - [ApkTool](https://ibotpeaches.github.io/Apktool/)
