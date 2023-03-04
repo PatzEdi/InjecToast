@@ -20,8 +20,9 @@ HUGE credits to the authors of the tools that are able to decompile android appl
 **This tool is made for educational purposes only!**
 ## **A command line application that provides you with the ability to inject toasts in Android Applications, written in Python** 
 ____________________________________________________________________________
-## **CHANGELOG: 1.1.2**
-- Release Version 1.1.2
+## **CHANGELOG: 1.1.3**
+- Release Version 1.1.3
+- Fixed bugs in terms of directories. When you had spaces in directories, it would mess up the directory input.
 - Fixes in README
 
 ## **Tool Information (IMPORTANT)**
@@ -57,7 +58,7 @@ InjecToast
 ```
 Execute from Command Line with arguments:
 ```
-InjecToast -t ToastMessage -d /path/to/decompiledapp/ -m Method #This is optional, default = onCreate / MainActivity.
+InjecToast -t "ToastMessage" -d /path/to/decompiledapp/ -m Method #This is optional, default = onCreate / MainActivity.
 ```
 Full steps:
 
