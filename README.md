@@ -14,6 +14,8 @@ A tool to inject toasts in Android applications, written in python, made with pa
 		height="23">
 </p>
 
+**Note: As FinderZ has been updated to V2, changes have been made. Because of this, an update will soon be here for InjecToast that fixes compatibility issues as of the current version, 1.1.3. InjecToast is not to be used as of now unless you have an older version of FinderZ installed, and because of this, will be updated soon.**
+
 This script uses android application decompilation tools and the FinderZ library in order to function properly. 
 HUGE credits to the authors of the tools that are able to decompile android applications.
 
