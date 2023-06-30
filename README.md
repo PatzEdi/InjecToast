@@ -1,5 +1,6 @@
 # InjecToast
-A tool to inject toasts in Android applications, written in python, made with passion by PatzEdi.
+
+A tool to inject toasts in Android applications.
 
 ![injectoast-logofinal](https://user-images.githubusercontent.com/116693779/219882646-4178fc5e-585f-4196-8076-093af1694a3b.png)
 
@@ -14,18 +15,16 @@ A tool to inject toasts in Android applications, written in python, made with pa
 		height="23">
 </p>
 
-**Note: As FinderZ has been updated to V2, changes have been made. Because of this, an update will soon be here for InjecToast that fixes compatibility issues as of the current version, 1.1.3. InjecToast is not to be used as of now unless you have an older version of FinderZ installed, and because of this, will be updated soon.**
-
-This script uses android application decompilation tools and the FinderZ library in order to function properly. 
+This script uses android application decompilation tools and the FinderZ library in order to function properly.
 HUGE credits to the authors of the tools that are able to decompile android applications.
 
 **This tool is made for educational purposes only!**
+
 ## **A command line application that provides you with the ability to inject toasts in Android Applications, written in Python** 
 ____________________________________________________________________________
-## **CHANGELOG: 1.1.3**
-- Release Version 1.1.3
-- Fixed bugs in terms of directories. When you had spaces in directories, it would mess up the directory input.
-- Fixes in README
+## **CHANGELOG: 1.1.5**
+- Release Version 1.1.5
+- Fixed comptaibility issue with FinderZ V2.
 
 ## **Tool Information (IMPORTANT)**
 - Before you proceed, make sure to install my FinderZ library at: [FinderZ](https://pypi.org/project/FinderZ/) This is used in order to manage files properly.
@@ -91,7 +90,7 @@ ____________________________________________________________________________
 - Not only that, but many more reasons, one of them being for fun and to showcase how one can easily edit other code by programming in a different language. 
 ____________________________________________________________________________
 ## **How?**
-- Using the FinderZ library created by myself, everything was much easier to do. Dealing with files was no longer painful. 20 to 30 lines of code, really only became one, thanks to the FinderZ library.
+- Using the FinderZ library created by myself, everything was much easier to do. Dealing with files was no longer painful. 20 to 30 lines of code, really only became one, thanks to the FinderZ library. 
 - Concerning the code, the summary of what it does is that it basically searches the files for the method, gets the smali contents, and then writes those contents to the line number after the ".locals" of the method.
 - In case you did not know, smali is a code that is semi human-readable, and you get the code when decompiling android applications.
 ____________________________________________________________________________
@@ -104,7 +103,7 @@ ____________________________________________________________________________
 - This project is under MIT license! Enjoy :)
 ____________________________________________________________________________
 ## **DEALING WITH ERRORS:**
-- If you encounter an error in the compilation of an application, it means that the application is not supported. Overall, the injector works for around 90-95 percent of applications. Sometimes, a compilation tool such as apktool will give you register errors. This means that the application code conflicts with the injector's code. 
+- If you encounter an error in the compilation of an application, it means that the application is not supported. Overall, the injector works for around 90-95 percent of applications. Sometimes, a compilation tool such as apktool will give you register errors. This means that the application code conflicts with the injector's code.
 - If you get other errors, script wise, such as parsing errors, file finding errors, etc, feel free to create an issue on the GitHub page.
 ## **Services used (Credits):**
 - [FinderZ](https://github.com/PatzEdi/FinderZ/)

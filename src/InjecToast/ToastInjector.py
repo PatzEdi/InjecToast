@@ -22,7 +22,7 @@ class Search:
 	#First step:
 	#Find the directory of the mainActivity file path
 	def mainActivityFileDir(mainActivityName, mainAppPath): 
-		mainActivityFile = fileOperands.findFile(mainActivityName, mainAppPath)
+		mainActivityFile = fileOperands.findFiles(mainActivityName, mainAppPath, exactSearch = True)
 		#Turn the list into a string:
 		mainActivityFile = ' '.join(mainActivityFile)
 		#Enter file directory for later use:
@@ -33,9 +33,13 @@ class Search:
 		manifestDirectory = mainAppPath + "/" "AndroidManifest.xml"
 		#Turn it into a string:
 		print(manifestDirectory)
-		f = open(manifestDirectory, "r")
+		try:
+			f = open(manifestDirectory, "r")
+			contents = f.read()
+		except:
+			raise Exception("ERR: An error occurred upon opening of AndroidManifest.xml. Is the path correct?")
 		#Read the file contents:
-		contents = f.read()
+		
 		#print(contents)
 		
 		#Find the mainAcitivty inside Android Manifest.xml:
@@ -69,7 +73,7 @@ class Search:
 						exit()
 	#Based on the MainActivity file name, find that file in the directory of the decompiled app:
 	def goToMainActivityFile(mainActivityFileName, mainAppPath): #1
-		mainActivityFile = fileOperands.findFile(mainActivityFileName, mainAppPath)
+		mainActivityFile = fileOperands.findFiles(mainActivityFileName, mainAppPath, exactSearch = True)
 		#Turn the list into a string:
 		mainActivityFile = ' '.join(mainActivityFile)
 		#Enter file directory for later use:
