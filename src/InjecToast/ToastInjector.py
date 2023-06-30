@@ -79,8 +79,11 @@ class Search:
 		#Enter file directory for later use:
 		directory = os.path.dirname(mainActivityFile)
 		#os.chdir(directory)
-		
-		f = open(mainActivityFile, "r")
+		try:
+
+			f = open(mainActivityFile, "r")
+		except:
+			raise Exception(f"ERR: Error opening main activity. Create an issue if this is persistent. mainActivity = {mainActivityFile}")
 		
 		return f #Put this function equal to a variable, and put that variable as the fileObject parameter for the injectCode() function below.
 	
